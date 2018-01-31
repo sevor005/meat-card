@@ -1,0 +1,10 @@
+.fixed-header {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
+  @import "__menu/__menu.scss";
+}

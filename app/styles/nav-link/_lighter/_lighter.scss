@@ -1,0 +1,7 @@
+&_lighter {
+  color: #999;
+
+  &:hover .nav-link__text {
+    color: #fff;
+  }
+}

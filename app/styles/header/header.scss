@@ -1,0 +1,25 @@
+.header {
+  height: 123px;
+  padding-top: 67px;
+  position: relative;
+  background: linear-gradient(#fff, #f3f3f3);
+
+  &:after {
+    content: "";
+    display: block;
+    background: url("../images/header__wave.png") repeat-x;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    z-index: 2;
+  }
+
+  @import "__logo/__logo.scss";
+  @import "__contacts/__contacts.scss";
+  @import "__basket/__basket.scss";
+  @import "__search/__search.scss";
+  @import "__wrap/__wrap.scss";
+  @import "__right-section/__right-section.scss";
+}

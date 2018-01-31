@@ -1,0 +1,10 @@
+.header-profile {
+  width: 170px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+
+  @import "__exit/__exit.scss";
+  @import "__link/__link.scss";
+  @import "__text/__text.scss";
+}

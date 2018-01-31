@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'DIN Pro Light';
+  src: url('../fonts/dinpro-light/DINPro-Light.eot');
+  src: url('../fonts/dinpro-light/DINPro-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/dinpro-light/DINPro-Light.woff') format('woff'),
+  url('../fonts/dinpro-light/DINPro-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pt_sansbold';
+  src: url('../fonts/ptsans-bold/2223-webfont.eot');
+  src: url('../fonts/ptsans-bold/2223-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ptsans-bold/2223-webfont.woff2') format('woff2'),
+  url('../fonts/ptsans-bold/2223-webfont.woff') format('woff'),
+  url('../fonts/ptsans-bold/2223-webfont.ttf') format('truetype'),
+  url('../fonts/ptsans-bold/2223-webfont.svg#pt_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
