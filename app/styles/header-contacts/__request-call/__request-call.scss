@@ -1,0 +1,13 @@
+&__request-call {
+  margin-top: 7px;
+  display: inline-block;
+  font-size: 14px;
+  color: #999;
+  border-bottom: 1px dotted #dadada;
+  cursor: pointer;
+  transition: border-color .1s;
+
+    &:hover {
+      border-color: transparent;
+    }
+}

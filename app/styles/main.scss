@@ -1,3 +1,35 @@
 // bower:scss
 // endbower
 
+$ptSansBold: pt_sansbold;
+$dinLight: 'DIN Pro Light';
+
+html,body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, p, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+}
+
+@import "wrapper/wrapper.scss";
+@import "container/container.scss";
+@import "fixed-header/fixed-header.scss";
+@import "header/header.scss";
+@import "nav-link/nav-link.scss";
+@import "footer/footer.scss";
+@import "header-contacts/header-contacts.scss";
+@import "header-search/header-search.scss";
+@import "header-profile/header-profile.scss";
+@import "header-basket/header-basket.scss";

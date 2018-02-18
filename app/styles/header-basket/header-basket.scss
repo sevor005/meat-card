@@ -1,0 +1,14 @@
+.header-basket {
+  width: 170px;
+  border: 1px solid #f0e5d8;
+  border-radius: 2px;
+  background-color: #fcf9f4;
+  font-size: 14px;
+  padding: 15px;
+  box-sizing: border-box;
+  position: relative;
+
+  @import "__goods/__goods.scss";
+  @import "__logo/__logo.scss";
+  @import "__text/__text.scss";
+}

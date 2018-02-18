@@ -1,0 +1,8 @@
+.header-contacts {
+  width: 220px;
+  line-height: 1.1;
+
+  @import "__request-call/__request-call.scss";
+  @import "__tel/__tel.scss";
+  @import "__text/__text.scss";
+}

@@ -1,0 +1,10 @@
+&__text {
+  background: url("../images/profile__logo.png") top left no-repeat;
+  padding-left: 18px;
+  margin-left: 9px;
+  cursor: pointer;
+
+  &:hover .header-profile__link {
+    border-color: transparent;
+  }
+}
