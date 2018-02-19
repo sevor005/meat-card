@@ -1,0 +1,8 @@
+.cost {
+  display: flex;
+
+  @import "__caption/__caption.scss";
+  @import "__currency/__currency.scss";
+  @import "__price/__price.scss";
+  @import "__weight/__weight.scss";
+}

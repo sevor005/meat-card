@@ -21,11 +21,29 @@
 }
 
 @font-face {
+<<<<<<< HEAD
   font-family: 'DIN Pro Medium';
   src: url('../fonts/dinpro-medium/DINPro-Medium.eot');
   src: url('../fonts/dinpro-medium/DINPro-Medium.eot?#iefix') format('embedded-opentype'),
   url('../fonts/dinpro-medium/DINPro-Medium.woff') format('woff'),
   url('../fonts/dinpro-medium/DINPro-Medium.ttf') format('truetype');
+=======
+  font-family: 'PT Sans Regular';
+  src: url('../fonts/ptsans-regular/PTSans-Regular.eot');
+  src: url('../fonts/ptsans-regular/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ptsans-regular/PTSans-Regular.woff') format('woff'),
+  url('../fonts/ptsans-regular/PTSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro Bold';
+  src: url('../fonts/dinpro-bold/DINPro-Bold.eot');
+  src: url('../fonts/dinpro-bold/DINPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/dinpro-bold/DINPro-Bold.woff') format('woff'),
+  url('../fonts/dinpro-bold/DINPro-Bold.ttf') format('truetype');
+>>>>>>> 2636d2a... banner
   font-weight: normal;
   font-style: normal;
 }
