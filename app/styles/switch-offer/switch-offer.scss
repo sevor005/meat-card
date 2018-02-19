@@ -1,0 +1,6 @@
+.switch-offer {
+  display: flex;
+
+  @import "__circle/__circle.scss";
+  @import "_active/_active.scss";
+}
