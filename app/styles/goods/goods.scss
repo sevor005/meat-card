@@ -1,0 +1,16 @@
+.goods {
+  height: 380px;
+  width: 270px;
+  font-family: $dinLight;
+        margin-top: 40px;
+        margin-left: 100px;
+
+  @import "__currency/__currency.scss";
+  @import "__img/__img.scss";
+  @import "__order/__order.scss";
+  @import "__price/__price.scss";
+  @import "__text/__text.scss";
+  @import "__title/__title.scss";
+  @import "__weight/__weight.scss";
+  @import "__value/__value.scss";
+}
