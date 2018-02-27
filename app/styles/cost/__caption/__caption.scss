@@ -1,4 +1,7 @@
 &__caption {
   display: flex;
-  margin-left: 6px;
+  color: #000;
+  margin-left: 3px;
+
+  @import "_large/_large.scss";
 }
