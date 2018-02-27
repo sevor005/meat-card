@@ -19,3 +19,23 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'PT Sans Regular';
+  src: url('../fonts/ptsans-regular/PTSans-Regular.eot');
+  src: url('../fonts/ptsans-regular/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ptsans-regular/PTSans-Regular.woff') format('woff'),
+  url('../fonts/ptsans-regular/PTSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro Bold';
+  src: url('../fonts/dinpro-bold/DINPro-Bold.eot');
+  src: url('../fonts/dinpro-bold/DINPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/dinpro-bold/DINPro-Bold.woff') format('woff'),
+  url('../fonts/dinpro-bold/DINPro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

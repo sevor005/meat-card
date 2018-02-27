@@ -1,8 +1,11 @@
 // bower:scss
 // endbower
 
-$ptSansBold: pt_sansbold;
-$dinLight: 'DIN Pro Light';
+$ptSansBold: pt_sansbold, Arial, sans-serif;
+$dinLight: 'DIN Pro Light', Arial, sans-serif;
+$dinMedium: 'DIN Pro Medium', Arial, sans-serif;
+$ptSansReg: 'PT Sans Regular', Arial, sans-serif;
+$dinBold: 'DIN Pro Bold', Arial, sans-serif;
 
 html,body {
   height: 100%;
@@ -34,4 +37,6 @@ a, a:hover, a:active, a:visited {
 @import "header-profile/header-profile.scss";
 @import "header-basket/header-basket.scss";
 @import "goods/goods.scss";
-@import "btn-goods/btn-goods.scss";
+@import "btn/btn.scss";
+@import "cost/cost.scss";
+@import "demo/demo.scss";
