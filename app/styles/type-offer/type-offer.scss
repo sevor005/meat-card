@@ -1,0 +1,24 @@
+.type-offer {
+  background: url("../images/type-offer.png") repeat-x center;
+  height: 402px;
+  position: relative;
+  
+  &:before {
+    content: "";
+    display: block;
+    background: url("../images/type-offer-wave.png") repeat-x;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    height: 8px;
+    width: 100%;
+  }
+
+  @import "__item/__item.scss";
+  @import "__wrap/__wrap.scss";
+  @import "__img/__img.scss";
+  @import "__img-link/__img-link.scss";
+  @import "__caption/__caption.scss";
+  @import "__link/__link.scss";
+  @import "__scroll/__scroll.scss";
+}
