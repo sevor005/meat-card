@@ -1,0 +1,11 @@
+.goods {
+  height: 380px;
+  width: 270px;
+  font-family: $dinLight;
+
+  @import "__img/__img.scss";
+  @import "__order/__order.scss";
+  @import "__text/__text.scss";
+  @import "__title/__title.scss";
+  @import "__link/__link.scss";
+}
