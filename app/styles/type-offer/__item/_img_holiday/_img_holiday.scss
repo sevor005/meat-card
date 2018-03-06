@@ -1,0 +1,13 @@
+&_img_holiday {
+  
+  &:before {
+    content: "";
+    display: block;
+    height: 82px;
+    width: 58px;
+    background: url("../images/wine.png") no-repeat;
+    position: absolute;
+    top: -44px;
+    right: 52px;
+  }
+}

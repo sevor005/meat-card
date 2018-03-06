@@ -6,6 +6,7 @@ $dinLight: 'DIN Pro Light', Arial, sans-serif;
 $dinMedium: 'DIN Pro Medium', Arial, sans-serif;
 $ptSansReg: 'PT Sans Regular', Arial, sans-serif;
 $dinBold: 'DIN Pro Bold', Arial, sans-serif;
+$nautilus: 'Nautilus Pompilius Regular', Arial, sans-serif;
 
 html,body {
   height: 100%;
@@ -42,3 +43,5 @@ a, a:hover, a:active, a:visited {
 @import "switch-offer/switch-offer.scss";
 @import "cost/cost.scss";
 @import "header-menu/header-menu.scss";
+@import "type-offer/type-offer.scss";
+@import "scroll-down/scroll-down.scss";
