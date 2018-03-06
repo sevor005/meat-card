@@ -4,6 +4,8 @@
 $ptSansBold: pt_sansbold, Arial, sans-serif;
 $dinLight: 'DIN Pro Light', Arial, sans-serif;
 $dinMedium: 'DIN Pro Medium', Arial, sans-serif;
+$ptSansReg: 'PT Sans Regular', Arial, sans-serif;
+$dinBold: 'DIN Pro Bold', Arial, sans-serif;
 
 html,body {
   height: 100%;
@@ -34,4 +36,8 @@ a, a:hover, a:active, a:visited {
 @import "header-search/header-search.scss";
 @import "header-profile/header-profile.scss";
 @import "header-basket/header-basket.scss";
-@import "header-menu/header-menu.scss";
+@import "main-slider/main-slider.scss";
+@import "offer-slider/offer-slider.scss";
+@import "btn/btn.scss";
+@import "switch-offer/switch-offer.scss";
+@import "cost/cost.scss";
