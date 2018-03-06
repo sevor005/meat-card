@@ -1,0 +1,12 @@
+&__link {
+  font-family: $dinMedium;
+  font-size: 18px;
+  color: #fff;
+  border-bottom: 1px solid transparent;
+  transition: color .1s, border-color .1s;
+
+  &:hover {
+    color: #dac6c6;
+    border-color: #f8e3e3;
+  }
+}

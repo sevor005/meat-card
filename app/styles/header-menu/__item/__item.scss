@@ -1,0 +1,15 @@
+&__item {
+
+  &:after {
+    content: "";
+    display: inline-block;
+    height: 14px;
+    margin-left: 23px;
+    border-right: 1px solid #a7554d;
+  }
+
+  &:last-child:after {
+    border: none;
+    margin-left: 0;
+  }
+}

@@ -19,3 +19,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'DIN Pro Medium';
+  src: url('../fonts/dinpro-medium/DINPro-Medium.eot');
+  src: url('../fonts/dinpro-medium/DINPro-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/dinpro-medium/DINPro-Medium.woff') format('woff'),
+  url('../fonts/dinpro-medium/DINPro-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
