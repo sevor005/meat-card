@@ -1,6 +1,6 @@
 .novelty {
   background-color: #fff;
-  height: 582px;
+  height: 525px;
   position: relative;
 
   &:after {
@@ -12,6 +12,7 @@
     left: 0;
     height: 9px;
     width: 100%;
+    z-index: 2;
   }
   
   @import "__title/__title.scss";

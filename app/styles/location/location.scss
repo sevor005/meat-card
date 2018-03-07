@@ -1,0 +1,7 @@
+.location {
+  background: linear-gradient(#ffffee, #dcdcdc);
+  height: 368px;
+  box-shadow: 0 0 14px #333 inset;
+
+  @import "__map/__map.scss";
+}
