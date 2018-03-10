@@ -1,0 +1,20 @@
+&__item {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  margin-left: 22px;
+  cursor: pointer;
+  transition: opacity .1s;
+
+  &:hover {
+    opacity: .8;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  @import "_facebook/_facebook.scss";
+  @import "_twitter/_twitter.scss";
+  @import "_google/_google.scss";
+}
