@@ -1,0 +1,12 @@
+.news-stock {
+  padding-top: 75px;
+  padding-bottom: 45px;
+
+  @import "__wrap/__wrap.scss";
+  @import "__menu/__menu.scss";
+  @import "__item/__item.scss";
+  @import "__link/__link.scss";
+  @import "__news/__news.scss";
+  @import "__news-item/__news-item.scss";
+  @import "__paginator/__paginator.scss";
+}

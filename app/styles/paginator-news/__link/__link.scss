@@ -1,0 +1,13 @@
+&__link {
+  font-size: 14px;
+  color: #912a21;
+  border-bottom: 1px solid #912a21;
+  transition: border-color .1s, color .1s;
+
+  &:hover:not(.paginator-news__link_active) {
+    border-color: transparent;
+    color: #f34535;
+  }
+
+  @import "_active/_active.scss";
+}

@@ -1,0 +1,7 @@
+&_white {
+  color: #fff;
+
+  &:hover .nav-link__text {
+    color: rgb(231, 229, 229);
+  }
+}

@@ -1,0 +1,14 @@
+&__link {
+  font-family: $dinMedium;
+  font-size: 16px;
+  color: #000;
+  border-bottom: 1px solid #000;
+  transition: border-color .1s, color .1s;
+
+  &:hover:not(.news-stock__link_active) {
+    border-color: transparent;
+    color: #3b3b3b;
+  }
+
+  @import "_active/_active.scss";
+}
