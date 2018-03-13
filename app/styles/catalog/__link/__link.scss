@@ -1,0 +1,14 @@
+&__link {
+  font-family: $dinMedium;
+  font-size: 14px;
+  color: #000;
+  border-bottom: 1px dotted #000;
+  transition: border-color .1s, color .1s;
+
+  &:hover:not(.catalog__link_active) {
+    border-color: transparent;
+    color: #666;
+  }
+
+  @import "_active/_active.scss";
+}
