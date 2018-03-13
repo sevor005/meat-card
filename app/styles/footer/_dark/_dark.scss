@@ -2,4 +2,8 @@
   background: url("../images/footer-dark.png") repeat-x center;
   height: 149px;
   width: 100%;
+
+  &:before {
+    display: none;
+  }
 }
