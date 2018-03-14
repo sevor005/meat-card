@@ -1,5 +1,6 @@
 &__submenu-link {
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: bold;
   color: #912a21;
   border-bottom: 1px solid #912a21;
   transition: border-color .1s, color .1s;
@@ -8,4 +9,6 @@
     border-color: transparent;
     color: #e7b9b5;
   }
+
+  @import "_active/_active.scss";
 }
