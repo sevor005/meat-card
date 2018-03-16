@@ -1,0 +1,20 @@
+.history-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 25px 21px 22px 16px;
+  box-sizing: border-box;
+  border-top: 1px solid #e6e6e6;
+
+  @import "__section-left/__section-left.scss";
+  @import "__cost/__cost.scss";
+  @import "__section-right/__section-right.scss";
+  @import "__story/__story.scss";
+  @import "__number/__number.scss";
+  @import "__date/__date.scss";
+  @import "__list-orders/__list-orders.scss";
+  @import "__link/__link.scss";
+  @import "__item/__item.scss";
+  @import "__text/__text.scss";
+  @import "__status/__status.scss";
+}

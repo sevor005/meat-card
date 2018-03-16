@@ -1,0 +1,14 @@
+&__link-catalog {
+  font-family: $dinMedium;
+  font-size: 15px;
+  color: #000;
+  border-bottom: 1px dotted #000;
+  transition: border-color .1s, color .1s;
+
+  &:hover:not(.side-menu__link-catalog_active) {
+    border-color: transparent;
+    color: #666;
+  }
+
+  @import "_active/_active.scss";
+}

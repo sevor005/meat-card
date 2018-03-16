@@ -7,7 +7,6 @@
   
   &:before {
     content: "";
-    display: block;
     background: url("../images/wave.png") center repeat-x;
     width: 300px;
     height: 8px;
@@ -18,7 +17,6 @@
 
   &:after {
     content: "";
-    display: inline-block;
     background: url("../images/wave.png") center repeat-x;
     width: 300px;
     height: 8px;
@@ -28,4 +26,5 @@
   }
 
   @import "_long_darker/_long_darker.scss";
+  @import "_long_lighter/_long_lighter.scss";
 }

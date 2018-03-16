@@ -1,0 +1,7 @@
+.submenu {
+  padding-top: 11px;
+  padding-bottom: 10px;
+  
+  @import "__item/__item.scss";
+  @import "__link/__link.scss";
+}

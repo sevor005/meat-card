@@ -1,0 +1,11 @@
+&__link {
+  color: #b06d6b;
+  border-bottom: 1px solid #b06d6b;
+  transition: border-color .1s;
+
+  &:hover {
+    border-color: transparent;
+  }
+
+  @import "_status/_status.scss";
+}

@@ -1,13 +1,14 @@
 .goods {
   height: 380px;
   width: 270px;
-  font-family: $dinLight;
 
   @import "__img/__img.scss";
   @import "__order/__order.scss";
   @import "__text/__text.scss";
   @import "__title/__title.scss";
   @import "__link/__link.scss";
-  @import "_for_badge/_for_badge.scss";
+  @import "_with_badge/_with_badge.scss";
   @import "_small/_small.scss";
+  @import "_basket/_basket.scss";
+  @import "__wrap/__wrap.scss";
 }

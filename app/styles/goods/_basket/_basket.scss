@@ -1,0 +1,15 @@
+&_basket {
+  width: 485px;
+  height: 100px;
+  display: flex;
+
+  .goods__img {
+    height: 85px;
+    flex: 0 0 120px;
+    margin-top: 5px;
+  }
+
+  .goods__title {
+    margin-top: 0;
+  }
+}

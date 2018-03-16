@@ -1,0 +1,12 @@
+&_link {
+  font-weight: bold;
+  color: #993333;
+  border-bottom: 1px dotted #993333;
+  cursor: pointer;
+  transition: border-color .1s, color .1s;
+
+  &:hover:not(.text-basket_pause) {
+    border-color: transparent;
+    color: #666;
+  }
+}

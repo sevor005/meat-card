@@ -1,0 +1,8 @@
+&__text {
+  width: 137px;
+  background: url("../images/profile__logo.png") no-repeat center left;
+  padding-left: 20px;
+  box-sizing: border-box;
+
+  @import "_actual/_actual.scss";
+}

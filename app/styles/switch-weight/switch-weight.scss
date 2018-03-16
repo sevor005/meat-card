@@ -1,0 +1,9 @@
+.switch-weight {
+  display: flex;
+  height: 32px;
+  flex: 0 0 145px;
+  justify-content: space-between;
+
+  @import "__text/__text.scss";
+  @import "__switch/__switch.scss";
+}

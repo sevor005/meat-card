@@ -1,0 +1,9 @@
+.basket-total {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+  @import "__warning/__warning.scss";
+  @import "__text/__text.scss";
+  @import "__calculation/__calculation.scss";
+}
