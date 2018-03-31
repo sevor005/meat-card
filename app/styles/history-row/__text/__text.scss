@@ -1,0 +1,15 @@
+&__text {
+  display: inline-flex;
+  font-family: $ptSansBold;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 25px;
+  background-position: left center;
+  background-repeat: no-repeat;
+
+  @import "_in-work/_in-work.scss";
+  @import "_not-paid/_not-paid.scss";
+  @import "_repeat/_repeat.scss";
+  @import "_pickup/_pickup.scss";
+  @import "_fulfilled/_fulfilled.scss";
+}

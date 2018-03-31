@@ -1,0 +1,12 @@
+.map {
+  height: 368px;
+  max-width: 1400px;
+  background: url("../images/map.png") center no-repeat;
+  box-shadow: inset 0 12px 17px -10px #333, inset 0 -16px 16px -15px #333;
+  position: relative;
+
+  @import "__text/__text.scss";
+  @import "__mark/__mark.scss";
+  @import "__badge/__badge.scss";
+  @import "__addres/__addres.scss";
+}

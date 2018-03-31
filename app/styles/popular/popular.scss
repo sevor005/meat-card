@@ -1,0 +1,35 @@
+.popular {
+  position: relative;
+  padding-top: 67px;
+  padding-bottom: 39px;
+  background-color: #fff;
+
+  &:before {
+    content: "";
+    display: block;
+    background: url("../images/wave-top-white.png") repeat-x;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    height: 9px;
+    width: 100%;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    background: url("../images/wave-bottom-white.png") repeat-x;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 9px;
+    width: 100%;
+    z-index: 2;
+  }
+
+  @import "__title/__title.scss";
+  @import "__wrap/__wrap.scss";
+  @import "__row/__row.scss";
+  @import "__badge/__badge.scss";
+  @import "__expand/__expand.scss";
+}

@@ -1,0 +1,7 @@
+.currency {
+  font-family: $ptSansReg;
+  font-size: 14px;
+
+  @import "_bold/_bold.scss";
+  @import "_big/_big.scss";
+}

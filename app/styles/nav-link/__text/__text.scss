@@ -3,4 +3,8 @@
   border-bottom: 1px solid #999;
   color: #999;
   transition: border-color .1s, color .1s;
+
+  @import "_white/_white.scss";
+  @import "_darker/_darker.scss";
+  @import "_lighter/_lighter.scss";
 }

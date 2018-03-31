@@ -1,0 +1,10 @@
+.side-menu {
+  width: 210px;
+  padding-left: 7px;
+  
+  @import "__item/__item.scss";
+  @import "__link/__link.scss";
+  @import "_catalog/_catalog.scss";
+  @import "__link-catalog/__link-catalog.scss";
+  @import "__item-catalog/__item-catalog.scss";
+}

@@ -1,0 +1,10 @@
+.expand {
+  width: 268px;
+  height: 50px;
+  border: 1px solid #e3d3c4;
+  border-radius: 5px;
+  background-color: #fcf9f4;
+  text-align: center;
+
+  @import "__text/__text.scss";
+}

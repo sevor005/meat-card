@@ -1,0 +1,11 @@
+&__order-dropdown {
+  position: absolute;
+  top: 79px;
+  right: 112px;
+  z-index: 3;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0s linear 0.3s;
+
+  @import "_total/_total.scss";
+}

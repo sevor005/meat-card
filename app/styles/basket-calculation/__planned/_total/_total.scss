@@ -1,0 +1,14 @@
+&_total {
+  width: 389px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 34px;
+
+  .basket-calculation__text {
+    width: 187px;
+  }
+
+  .basket-calculation__weight {
+    margin-left: 13px;
+  }
+}

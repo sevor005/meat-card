@@ -1,0 +1,14 @@
+&__date {
+  height: 50px;
+  flex:0 0 50px;
+  max-width: 50px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: rgba(82, 82, 82, .5);
+  text-align: center;
+  overflow: hidden;
+  margin-top: 5px;
+
+  @import "_bright/_bright.scss";
+}

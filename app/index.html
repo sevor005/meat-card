@@ -24,26 +24,26 @@
       <div class="fixed-header">
         <div class="container">
           <div class="fixed-header__menu">
-            <a href="#" class="nav-link nav-link_lighter nav-link_with-icon nav-link_icon_delivery">
-              <span class="nav-link__text">Доставка</span>
+            <a href="#" class="nav-link nav-link_with-icon nav-link_icon_delivery">
+              <span class="nav-link__text nav-link__text_lighter">Доставка</span>
             </a>
-            <a href="#" class="nav-link nav-link_lighter">
-              <span class="nav-link__text">Услуги</span>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_lighter">Услуги</span>
             </a>
-            <a href="#" class="nav-link nav-link_lighter">
-              <span class="nav-link__text">Скидки</span>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_lighter">Скидки</span>
             </a>
-            <a href="#" class="nav-link nav-link_lighter">
-              <span class="nav-link__text">Частые вопросы</span>
+            <a href="/history-orders.html" class="nav-link">
+              <span class="nav-link__text nav-link__text_lighter">Частые вопросы</span>
             </a>
-            <a href="#" class="nav-link nav-link_lighter">
-              <span class="nav-link__text">Сайт производителя</span>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_lighter">Сайт производителя</span>
             </a>
-            <a href="#" class="nav-link nav-link_lighter">
-              <span class="nav-link__text">Новости и акции</span>
+            <a href="/news-stock.html" class="nav-link">
+              <span class="nav-link__text nav-link__text_lighter">Новости и акции</span>
             </a>
-            <a href="#" class="nav-link nav-link_lighter">
-              <span class="nav-link__text">Контактная информация</span>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_lighter">Контактная информация</span>
             </a>
           </div>
         </div>
@@ -62,7 +62,7 @@
               <div class="header-basket__logo"></div>
               <div class="header-basket__text">
                 В корзине
-                <a href="#" class="header-basket__goods">12 товаров</a>
+                <a href="/basket.html" class="header-basket__goods">12 товаров</a>
                 на сумму 3 565 ₽
               </div>
             </div>
@@ -81,22 +81,22 @@
           </div>
           <div class="header-menu header__menu">
             <div class="header-menu__item">
-              <a href="#" class="header-menu__link">Колбасы и деликатесы</a>
+              <a href="/catalog.html" class="header-menu__link">Колбасы и деликатесы</a>
             </div>
             <div class="header-menu__item">
-              <a href="#" class="header-menu__link">Свинина</a>
+              <a href="/catalog.html" class="header-menu__link">Свинина</a>
             </div>
             <div class="header-menu__item">
-              <a href="#" class="header-menu__link">Говядина</a>
+              <a href="/catalog.html" class="header-menu__link">Говядина</a>
             </div>
             <div class="header-menu__item">
-              <a href="#" class="header-menu__link">Баранина</a>
+              <a href="/catalog.html" class="header-menu__link">Баранина</a>
             </div>
             <div class="header-menu__item">
-              <a href="#" class="header-menu__link">Птица</a>
+              <a href="/catalog.html" class="header-menu__link">Птица</a>
             </div>
             <div class="header-menu__item">
-              <a href="#" class="header-menu__link">Полуфабрикаты</a>
+              <a href="/catalog.html" class="header-menu__link">Полуфабрикаты</a>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@
         <div class="container main-slider__container">
           <div class="main-slider__offer">
             <div class="offer-slider">
-              <div class="offer-slider__badge">-15%</div>
+              <div class="badge offer-slider__badge">-15%</div>
               <div class="offer-slider__title">Сосиски с сыром Баварские</div>
               <div class="cost offer-slider__cost">
                 <div class="cost__price cost__price_large">500</div>
@@ -163,7 +163,7 @@
         <div class="container novelty__container">
           <div class="novelty__arrow novelty__arrow_left" style="background-image: url('images/arrow-left.png');"></div>
           <div class="novelty__arrow novelty__arrow_right" style="background-image: url('images/arrow-right.png');"></div>
-          <div class="novelty__title">Новинки каталога</div>
+          <div class="block-title novelty__title">Новинки каталога</div>
           <div class="novelty__wrap">
             <div class="goods">
               <div class="goods__img" style="background-image: url('images/cream-sausage.png');"></div>
@@ -227,30 +227,253 @@
           </div>
         </div>
       </div>
+<!-- Location -->
+      <div class="location">
+        <div class="map location__map">
+          <div class="map__mark map__mark_first">
+            M
+            <div class="map__addres map__addres_bottom">Проспект Ленина, 57</div>
+          </div>
+          <div class="map__mark map__mark_second">
+            M
+            <div class="map__addres map__addres_bottom">ул.Антона-Петрова, 52</div>
+          </div>
+          <div class="map__mark map__mark_third">
+            M
+            <div class="map__addres map__addres_top">ул. Малахова, 139</div>
+          </div>
+          <div class="map__badge">
+            <div class="map__text">Наши магазины</div>
+          </div>
+        </div>
+      </div>
+<!-- Popular -->
+      <div class="popular">
+        <div class="container">
+          <div class="block-title popular__title">Популярные товары</div>
+          <div class="popular__wrap">
+            <div class="popular__row">
+              <div class="goods">
+                <div class="goods__img" style="background-image: url('images/cream-sausage.png');"></div>
+                <div class="goods__title">
+                  <a href="#" class="goods__link">Колбаса «Сливочная»</a>
+                </div>
+                <div class="goods__order">
+                  <div class="cost">
+                    <div class="cost__price">146</div>
+                    <div class="cost__caption">
+                      <div class="cost__currency">ք</div>
+                      <div class="cost__weight">100 грамм</div>
+                    </div>
+                  </div>
+                  <button class="btn">Купить</button>
+                </div>
+                <div class="goods__text">
+                  Свинина, говядина, яица куриные, молоко сухое, соль поваренная пищевая, растительный белок,
+                  сахар-песок, комплексные пищевые добавки:
+                </div>
+              </div>
+              <div class="goods">
+                <div class="goods__img" style="background-image: url('images/shpig.png');"></div>
+                <div class="goods__title">
+                  <a href="#" class="goods__link">Шпиг к завтраку</a>
+                </div>
+                <div class="goods__order">
+                  <div class="cost">
+                    <div class="cost__price">347</div>
+                    <div class="cost__caption">
+                      <div class="cost__currency">ք</div>
+                      <div class="cost__weight">100 грамм</div>
+                    </div>
+                  </div>
+                  <button class="btn">Купить</button>
+                </div>
+                <div class="goods__text">
+                  Состав: шпиг хребтовый, боковой в шкуре или без шкуры с прирезью мяса, соль поваренная пищевая,
+                  лавровый лист, перец черный, чеснок
+                </div>
+              </div>
+              <div class="goods">
+                <div class="goods__img" style="background-image: url('images/bacon.png');"></div>
+                <div class="goods__title">
+                  <a href="#" class="goods__link">Бекон Английский</a>
+                </div>
+                <div class="goods__order">
+                  <div class="cost">
+                    <div class="cost__price">365</div>
+                    <div class="cost__caption">
+                      <div class="cost__currency">ք</div>
+                      <div class="cost__weight">100 грамм</div>
+                    </div>
+                  </div>
+                  <button class="btn">Купить</button>
+                </div>
+                <div class="goods__text">
+                  Состав: свинина, соль поваренная пищевая, комплексные пищевые добавки.
+                </div>
+              </div>
+            </div>
+            <div class="popular__row">
+              <div class="goods">
+                <div class="goods__img" style="background-image: url('images/cream-sausage.png');"></div>
+                <div class="goods__title">
+                  <a href="#" class="goods__link">Колбаса «Сливочная»</a>
+                </div>
+                <div class="goods__order">
+                  <div class="cost">
+                    <div class="cost__price">146</div>
+                    <div class="cost__caption">
+                      <div class="cost__currency">ք</div>
+                      <div class="cost__weight">100 грамм</div>
+                    </div>
+                  </div>
+                  <button class="btn">Купить</button>
+                </div>
+                <div class="goods__text">
+                  Свинина, говядина, яица куриные, молоко сухое, соль поваренная пищевая, растительный белок,
+                  сахар-песок, комплексные пищевые добавки:
+                </div>
+              </div>
+              <div class="goods goods_with_badge">
+                <div class="badge popular__badge">15%</div>
+                <div class="goods__img" style="background-image: url('images/shpig.png');"></div>
+                <div class="goods__title">
+                  <a href="#" class="goods__link">Шпиг к завтраку</a>
+                </div>
+                <div class="goods__order">
+                  <div class="cost">
+                    <div class="cost__old-price">389</div>
+                    <div class="cost__price">347</div>
+                    <div class="cost__caption">
+                      <div class="cost__currency">ք</div>
+                      <div class="cost__weight">100 грамм</div>
+                    </div>
+                  </div>
+                  <button class="btn">Купить</button>
+                </div>
+                <div class="goods__text">
+                  Состав: шпиг хребтовый, боковой в шкуре или без шкуры с прирезью мяса, соль поваренная пищевая,
+                  лавровый лист, перец черный, чеснок
+                </div>
+              </div>
+              <div class="goods">
+                <div class="goods__img" style="background-image: url('images/bacon.png');"></div>
+                <div class="goods__title">
+                  <a href="#" class="goods__link">Бекон Английский</a>
+                </div>
+                <div class="goods__order">
+                  <div class="cost">
+                    <div class="cost__price">365</div>
+                    <div class="cost__caption">
+                      <div class="cost__currency">ք</div>
+                      <div class="cost__weight">100 грамм</div>
+                    </div>
+                  </div>
+                  <button class="btn">Купить</button>
+                </div>
+                <div class="goods__text">
+                  Состав: свинина, соль поваренная пищевая, комплексные пищевые добавки.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="expand popular__expand">
+            <div class="expand__text">Показать еще 6 товаров</div>
+          </div>
+        </div>
+      </div>
+<!-- News -->
+      <div class="news">
+        <div class="container">
+          <div class="block-title block-title_long_darker">
+            <div class="logo-small news__logo"></div>
+          </div>
+          <div class="news__wrap">
+            <div class="news__publicity">
+              <div class="news__publicity-text">Сеть фирменных магазинов «Мясная карта» принадлежит
+                Группе компаний «Альтаир-Агро»
+              </div>
+              <p class="news__paragraph text-news">
+                Здесь представлено все, что уже на протижении 13 лет производит ГК «
+                <a href="#" class="link-news">Альтаир-Агро</a>
+                »: свежее охлажденное мясо, субпродукты, полный ассортимент колбас и мясных деликатесов,
+                полуфабрикаты, более 10 видов шашлыка. И все это с собственных свинокомплексов.
+              </p>
+              <p class="news__paragraph text-news">
+                Сегодня это Группа компаний с численностью сотрудников более 900 человек,
+                которая объединила под корпоративным брендом.
+              </p>
+            </div>
+            <div class="news__publicity-news">
+              <div class="news-item news__item">
+                <div class="news-item__date">
+                  <div class="news-item__number">29</div>
+                  <div class="news-item__month">мая</div>
+                </div>
+                <div class="news-item__text">
+                  <a href="#" class="link-news">Открытие магазина в Барнауле</a>
+                  <div class="news-item__news text-news">
+                    Торжественное открытие нового магазина по адресу Георгия Исаково,264
+                  </div>
+                </div>
+              </div>
+              <div class="news-item news__item">
+                <div class="news-item__date">
+                  <div class="news-item__number">26</div>
+                  <div class="news-item__month">мая</div>
+                </div>
+                <div class="news-item__text">
+                  <a href="#" class="link-news">Лучший продовольственный магазин</a>
+                  <div class="news-item__news text-news">
+                    Конкурс, инициированный главой города, в этом году проходил в пятый раз
+                  </div>
+                </div>
+              </div>
+              <div class="news-item news__item">
+                <div class="news-item__date">
+                  <div class="news-item__number">24</div>
+                  <div class="news-item__month">апр</div>
+                </div>
+                <div class="news-item__text">
+                  <a href="#" class="link-news">Высокое качество своей продукции!</a>
+                  <div class="news-item__news text-news">
+                    группа компаний «Альтаир-Агро» получило очередное подтверждение высокого качества своей продукции
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="social-network news__social">
+            <div class="social-network__item social-network__item_facebook"></div>
+            <div class="social-network__item social-network__item_twitter"></div>
+            <div class="social-network__item social-network__item_google"></div>
+          </div>
+        </div>
+      </div>
 <!-- Footer -->
       <div class="footer">
         <div class="container">
           <div class="footer__menu">
-            <a href="#" class="nav-link nav-link_darker">
-              <span class="nav-link__text">Доставка</span>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_darker">Доставка</span>
             </a>
-            <a href="#" class="nav-link nav-link_darker">
-              <span class="nav-link__text">Услуги</span>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_darker">Услуги</span>
             </a>
-            <a href="#" class="nav-link nav-link_darker">
-              <span class="nav-link__text">Скидки</span>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_darker">Скидки</span>
             </a>
-            <a href="#" class="nav-link nav-link_darker">
-              <span class="nav-link__text">Частые вопросы</span>
+            <a href="/history-orders.html" class="nav-link">
+              <span class="nav-link__text nav-link__text_darker">Частые вопросы</span>
             </a>
-            <a href="#" class="nav-link nav-link_darker">
-              <span class="nav-link__text">Сайт производителя</span>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_darker">Сайт производителя</span>
             </a>
-            <a href="#" class="nav-link nav-link_darker">
-              <span class="nav-link__text">Новости и акции</span>
+            <a href="/news-stock.html" class="nav-link">
+              <span class="nav-link__text nav-link__text_darker">Новости и акции</span>
             </a>
-            <a href="#" class="nav-link nav-link_darker">
-              <span class="nav-link__text">Контактная информация</span>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_darker">Контактная информация</span>
             </a>
           </div>
           <div class="footer__copyright">© 2014 «Мясная карта» - сеть мясных магазинов</div>

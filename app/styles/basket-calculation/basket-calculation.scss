@@ -1,0 +1,15 @@
+.basket-calculation {
+  width: 350px;
+  padding-left: 50px;
+
+  @import "__text/__text.scss";
+  @import "__price/__price.scss";
+  @import "__text/__text.scss";
+  @import "__price/__price.scss";
+  @import "__weight/__weight.scss";
+  @import "__weight/__weight.scss";
+  @import "__actual/__actual.scss";
+  @import "__planned/__planned.scss";
+  @import "__info/__info.scss";
+  @import "__weight-actual/__weight-actual.scss";
+}

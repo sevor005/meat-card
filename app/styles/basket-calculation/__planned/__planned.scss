@@ -1,0 +1,6 @@
+&__planned {
+  display: flex;
+  justify-content: space-between;
+
+  @import "_total/_total.scss";
+}

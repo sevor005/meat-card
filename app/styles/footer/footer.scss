@@ -9,7 +9,7 @@
   &:before {
     content: "";
     display: block;
-    background: url("../images/footer__wave.png") repeat-x;
+    background: url("../images/wave-top-white.png") repeat-x;
     position: absolute;
     bottom: 100%;
     left: 0;
@@ -21,4 +21,5 @@
   @import "__copyright/__copyright.scss";
   @import "__contacts/__contacts.scss";
   @import "__menu/__menu.scss";
+  @import "_dark/_dark.scss";
 }

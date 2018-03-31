@@ -1,0 +1,12 @@
+&_repeat {
+  font-family: $dinLight;
+  font-size: 14px;
+  font-weight: normal;
+  background-image: url("../images/repeat.png");
+  background-position: 3px center;
+  cursor: pointer;
+
+  &:hover .history-row__link_status {
+    border-color: transparent;
+  }
+}
