@@ -1,0 +1,11 @@
+&_total {
+  padding-right: 20px;
+  display: inline-flex;
+  background: url("../images/ordering-total.png") no-repeat center right;
+  cursor: pointer;
+  margin-top: 6px;
+
+  &:hover .form-ordering__link {
+    border-color: transparent;
+  }
+}

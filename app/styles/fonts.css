@@ -49,3 +49,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'DIN Pro Regular';
+  src: url('../fonts/dinpro-reg/DINPro.eot');
+  src: url('../fonts/dinpro-regDINPro.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/dinpro-regDINPro.woff') format('woff'),
+  url('../fonts/dinpro-regDINPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

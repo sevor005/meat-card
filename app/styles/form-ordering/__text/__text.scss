@@ -1,0 +1,9 @@
+&__text {
+  font-size: 16px;
+  color: #333;
+
+  @import "_bold/_bold.scss";
+  @import "_small/_small.scss";
+  @import "_total/_total.scss";
+  @import "_larger/_larger.scss";
+}

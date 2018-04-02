@@ -1,0 +1,12 @@
+&_small_lighter {
+
+  &:after {
+    width: 250px;
+    background: url("../images/wave.png") center repeat-x;
+  }
+
+  &:before {
+    width: 250px;
+    background: url("../images/wave.png") center repeat-x;
+  }
+}

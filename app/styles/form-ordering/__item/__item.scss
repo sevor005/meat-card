@@ -1,0 +1,20 @@
+&__item {
+  width: 290px;
+  height: 37px;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  padding: 0 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: border-color .1s, box-shadow .1s;
+
+  &:hover {
+    border-color: #a3c626;
+    box-shadow: 0 0 2px #a3c626 inset;
+  }
+
+  @import "_big/_big.scss";
+}

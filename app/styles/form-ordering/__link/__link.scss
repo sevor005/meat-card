@@ -1,0 +1,10 @@
+&__link {
+  font-size: 14px;
+  border-bottom: 1px dotted #e6e6e6;
+  color: #333;
+  transition: border-color .1s;
+
+  &:hover {
+    border-color: transparent;
+  }
+}
