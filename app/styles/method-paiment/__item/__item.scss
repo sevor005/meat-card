@@ -1,0 +1,26 @@
+&__item {
+  width: 148px;
+  height: 75px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  margin-left: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  transition: border-color .1s, box-shadow .1s;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:hover {
+    border-color: #a3c626;
+    box-shadow: 0 0 2px #a3c626 inset;
+  }
+
+  @import "_qiwi/_qiwi.scss";
+  @import "_webmoney/_webmoney.scss";
+  @import "_bank/_bank.scss";
+  @import "_operator/_operator.scss";
+}

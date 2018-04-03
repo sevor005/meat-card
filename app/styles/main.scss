@@ -7,6 +7,7 @@ $dinMedium: 'DIN Pro Medium', Arial, sans-serif;
 $ptSansReg: 'PT Sans Regular', Arial, sans-serif;
 $dinBold: 'DIN Pro Bold', Arial, sans-serif;
 $nautilus: 'Nautilus Pompilius Regular', Arial, sans-serif;
+$dinregul:  'DIN Pro Regular', Arial, sans-serif;
 
 html,body {
   height: 100%;
@@ -17,7 +18,7 @@ body {
   padding: 0;
 }
 
-ul, ol, p, li {
+ul, ol, p, li, input {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -74,3 +75,7 @@ a, a:hover, a:active, a:visited {
 @import "submenu/submenu.scss";
 @import "history/history.scss";
 @import "history-row/history-row.scss";
+@import "ordering/ordering.scss";
+@import "form-ordering/form-ordering.scss";
+@import "method-paiment/method-paiment.scss";
+

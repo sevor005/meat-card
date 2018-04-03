@@ -1,0 +1,15 @@
+&__field {
+  width: 270px;
+  height: 35px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+
+  &:focus {
+    border-color: #a3c626;
+    box-shadow: 0 0 2px #a3c626 inset;
+  }
+}

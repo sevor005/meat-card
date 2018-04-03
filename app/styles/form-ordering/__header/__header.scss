@@ -1,0 +1,27 @@
+&__header {
+  text-align: center;
+  font-family: $dinregul;
+  font-size: 24px;
+  color: #999;
+  position: relative;
+  
+  &:before {
+    content: "";
+    border-bottom: 1px solid #e6e6e6;
+    width: 360px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+
+  &:after {
+    content: "";
+    border-bottom: 1px solid #e6e6e6;
+    width: 360px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+  @import "_small/_small.scss";
+}

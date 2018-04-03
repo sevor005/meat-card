@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Мясная карта</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <!-- endbuild -->
+    
+  </head>
+  <body>
+    <div class="wrapper">
+<!-- Fixed-header -->
+      <div class="fixed-header">
+        <div class="container">
+          <div class="fixed-header__menu">
+            <a href="#" class="nav-link nav-link_with-icon nav-link_icon_delivery">
+              <span class="nav-link__text nav-link__text_lighter">Доставка</span>
+            </a>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_lighter">Услуги</span>
+            </a>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_lighter">Скидки</span>
+            </a>
+            <a href="/history-orders.html" class="nav-link">
+              <span class="nav-link__text nav-link__text_lighter">Частые вопросы</span>
+            </a>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_lighter">Сайт производителя</span>
+            </a>
+            <a href="/news-stock.html" class="nav-link">
+              <span class="nav-link__text nav-link__text_lighter">Новости и акции</span>
+            </a>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_lighter">Контактная информация</span>
+            </a>
+          </div>
+        </div>
+      </div>
+<!-- Header -->
+      <div class="header">
+        <div class="container">
+          <div class="header__wrap">
+            <a href="/index.html" class="header__logo"></a>
+            <div class="header-contacts header__contacts">
+              <div class="header-contacts__tel">8(800) 550 00 38</div>
+              <div class="header-contacts__text">Заказ по телефону с 9:00 до 19:00</div>
+              <div class="header-contacts__request-call">Заказать обратный звонок</div>
+            </div>
+            <div class="header-basket header__basket">
+              <div class="header-basket__logo"></div>
+              <div class="header-basket__text">
+                В корзине
+                <a href="/basket.html" class="header-basket__goods">12 товаров</a>
+                на сумму 3 565 ₽
+              </div>
+            </div>
+            <div class="header__right-section">
+              <div class="header-profile">
+                <div class="header-profile__text">
+                  <div class="header-profile__link">Васильченко Илья</div>
+                </div>
+                <div class="header-profile__exit"></div>
+              </div>
+              <div class="header-search header__search">
+                <input type="text" class="header-search__input">
+                <div class="header-search__button"></div>
+              </div>
+            </div>
+          </div>
+          <div class="header-menu header__menu">
+            <div class="header-menu__item">
+              <a href="/catalog.html" class="header-menu__link">Колбасы и деликатесы</a>
+            </div>
+            <div class="header-menu__item">
+              <a href="/catalog.html" class="header-menu__link">Свинина</a>
+            </div>
+            <div class="header-menu__item">
+              <a href="/catalog.html" class="header-menu__link">Говядина</a>
+            </div>
+            <div class="header-menu__item">
+              <a href="/catalog.html" class="header-menu__link">Баранина</a>
+            </div>
+            <div class="header-menu__item">
+              <a href="/catalog.html" class="header-menu__link">Птица</a>
+            </div>
+            <div class="header-menu__item">
+              <a href="/catalog.html" class="header-menu__link">Полуфабрикаты</a>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Ordering -->
+      <div class="page-content ordering">
+        <div class="container">
+          <div class="ordering__title block-title block-title_small_lighter">Оформление заказа # 14569</div>
+          <form action="" class="form-ordering ordering__form">
+            <div class="form-ordering__header">Личные данные</div>
+            <div class="form-ordering__row">
+              <input type="text" class="form-ordering__field" placeholder="Name">
+              <div class="form-ordering__with-checkbox">
+                <input type="tel" class="form-ordering__field" placeholder="Phone">
+                <div class="form-ordering__text-row">
+                  <label for="sms">
+                    <div class="form-ordering__text">Оповестить по СМС</div>
+                  </label>
+                  <input type="checkbox" class="form-ordering__check" name="" id="sms" checked>
+                </div>
+              </div>
+              <div class="form-ordering__with-checkbox">
+                <input type="email" class="form-ordering__field" placeholder="Email">
+                <div class="form-ordering__text-row">
+                  <label for="email">
+                    <div class="form-ordering__text">Оповестить по email</div>
+                  </label>
+                  <input type="checkbox" class="form-ordering__check" name="" id="email">
+                </div>
+              </div>
+            </div>
+            <div class="form-ordering__header form-ordering__header_small ordering__form-header">Выберете способ доставки</div>
+            <div class="form-ordering__row">
+              <div class="form-ordering__item">
+                <div class="form-ordering__section-left">
+                  <input type="radio" class="form-ordering__radio" id="pickup" name="delivery">
+                  <label for="pickup">
+                    <div class="form-ordering__text form-ordering__text_bold">Самовывоз</div>
+                  </label>
+                </div>
+                <div class="form-ordering__section-right">
+                  <div class="form-ordering__text form-ordering__text_small">от 690р, завтра</div>
+                </div>
+              </div>
+              <div class="form-ordering__item form-ordering__item_big">
+                <div class="form-ordering__courier-row">
+                  <div class="form-ordering__section-left">
+                    <input type="radio" class="form-ordering__radio" id="courier" name="delivery">
+                    <label for="courier">
+                      <div class="form-ordering__text form-ordering__text_bold">Курьер</div>
+                    </label>
+                  </div>
+                  <div class="form-ordering__section-right">
+                    <div class="form-ordering__text form-ordering__text_small">от 1550р, от 4 дней</div>
+                  </div>
+                </div>
+                <textarea name="" class="form-ordering__multyline"></textarea>
+                <textarea name="" class="form-ordering__multyline form-ordering__multyline_high"></textarea>
+              </div>
+              <div class="form-ordering__item">
+                <div class="form-ordering__section-left">
+                  <input type="radio" class="form-ordering__radio" id="mail" name="delivery">
+                  <label for="mail">
+                    <div class="form-ordering__text form-ordering__text_bold">Почта</div>
+                  </label>
+                </div>
+                <div class="form-ordering__section-right">
+                  <div class="form-ordering__text form-ordering__text_small">от 690р, завтра</div>
+                </div>
+              </div>
+            </div>
+            <div class="form-ordering__header ordering__form-header">Способы оплаты</div>
+            <div class="method-paiment ordering__paiment">
+              <div class="method-paiment__item method-paiment__item_qiwi"></div>
+              <div class="method-paiment__item method-paiment__item_webmoney"></div>
+              <div class="method-paiment__item method-paiment__item_bank"></div>
+              <div class="method-paiment__item method-paiment__item_operator"></div>
+            </div>
+          </form>
+          <div class="form-ordering__total ordering__total">
+            <div class="form-ordering__total-section-left">
+              <div class="form-ordering__text form-ordering__text_larger">Вы оформляете заказ весом 4,45 кг на сумму:</div>
+              <div class="form-ordering__text form-ordering__text_total">
+                <a href="#" class="form-ordering__link">Код на скидку</a>
+              </div>
+            </div>
+            <div class="form-ordering__total-section-right">
+              <div class="cost cost__price cost__price_large_black">
+                2 820
+                <div class="currency currency_bold currency_big">₽</div>
+              </div>
+              <button class="btn btn_ordering ordering__btn">Оплатить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Footer -->
+      <div class="footer footer_dark">
+        <div class="container">
+          <div class="footer__menu">
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_white">Доставка</span>
+            </a>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_white">Услуги</span>
+            </a>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_white">Скидки</span>
+            </a>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_white">Частые вопросы</span>
+            </a>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_white">Сайт производителя</span>
+            </a>
+            <a href="/news-stock.html" class="nav-link">
+              <span class="nav-link__text nav-link__text_white">Новости и акции</span>
+            </a>
+            <a href="#" class="nav-link">
+              <span class="nav-link__text nav-link__text_white">Контактная информация</span>
+            </a>
+          </div>
+          <div class="footer__copyright footer__copyright_white">© 2014 «Мясная карта» - сеть мясных магазинов</div>
+          <div class="footer__contacts footer__contacts_white">8 (800) 500 00-38, 8(3852) 579-002</div>
+        </div>
+      </div>
+    </div>
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <!-- endbuild -->
+  </body>
+</html>
