@@ -1,0 +1,7 @@
+.feedback-checkbox {
+  display: none;
+
+  &:checked + .dialog-overlay {
+    display: block;
+  }
+}

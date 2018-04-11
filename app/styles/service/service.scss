@@ -1,0 +1,15 @@
+.service {
+  
+  @import "__wrap/__wrap.scss";
+  @import "__menu/__menu.scss";
+  @import "__section-right/__section-right.scss";
+  @import "__header/__header.scss";
+  @import "__text/__text.scss";
+  @import "__img/__img.scss";
+  @import "__list/__list.scss";
+  @import "__list-item/__list-item.scss";
+  @import "__table/__table.scss";
+  @import "__row/__row.scss";
+  @import "__cell/__cell.scss";
+  @import "__cell-title/__cell-title.scss";
+}

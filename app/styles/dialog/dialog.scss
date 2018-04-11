@@ -1,0 +1,18 @@
+.dialog {
+  width: 400px;
+  height: 220px;
+  padding: 26px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @import "__text/__text.scss";
+  @import "__field/__field.scss";
+  @import "__tel/__tel.scss";
+  @import "__btn/__btn.scss";
+  @import "__close/__close.scss";
+}

@@ -1,7 +1,13 @@
 &_small {
   width: 200px;
+  margin-bottom: 38px;
+  margin-left: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   .goods__img {
-    height: 137px;
+    height: 141px;
   }
 }

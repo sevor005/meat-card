@@ -1,0 +1,20 @@
+&__list-item {
+  padding-left: 15px;
+  margin-top: 11px;
+  position: relative;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:before {
+    content: "";
+    width: 3px;
+    height: 5px;
+    background: url("../images/text-list.png") no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+}

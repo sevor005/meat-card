@@ -9,7 +9,7 @@ $dinBold: 'DIN Pro Bold', Arial, sans-serif;
 $nautilus: 'Nautilus Pompilius Regular', Arial, sans-serif;
 $dinregul:  'DIN Pro Regular', Arial, sans-serif;
 
-html,body {
+html, body {
   height: 100%;
 }
 
@@ -18,10 +18,11 @@ body {
   padding: 0;
 }
 
-ul, ol, p, li, input {
+ul, ol, p, li, input, td, tr, th, table {
   margin: 0;
   padding: 0;
   list-style: none;
+  border-collapse: collapse;
 }
 
 a, a:hover, a:active, a:visited {
@@ -78,4 +79,12 @@ a, a:hover, a:active, a:visited {
 @import "ordering/ordering.scss";
 @import "form-ordering/form-ordering.scss";
 @import "method-paiment/method-paiment.scss";
-
+@import "search/search.scss";
+@import "wrap-goods/wrap-goods.scss";
+@import "feedback-checkbox/feedback-checkbox.scss";
+@import "dialog-overlay/dialog-overlay.scss";
+@import "dialog/dialog.scss";
+@import "form-feedback/form-feedback.scss";
+@import "order-finish/order-finish.scss";
+@import "page-order-finish/page-order-finish.scss";
+@import "service/service.scss";

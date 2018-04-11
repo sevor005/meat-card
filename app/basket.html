@@ -27,7 +27,7 @@
             <a href="/ordering.html" class="nav-link nav-link_with-icon nav-link_icon_delivery">
               <span class="nav-link__text nav-link__text_lighter">Доставка</span>
             </a>
-            <a href="#" class="nav-link">
+            <a href="/service.html" class="nav-link">
               <span class="nav-link__text nav-link__text_lighter">Услуги</span>
             </a>
             <a href="#" class="nav-link">
@@ -56,7 +56,9 @@
             <div class="header-contacts header__contacts">
               <div class="header-contacts__tel">8(800) 550 00 38</div>
               <div class="header-contacts__text">Заказ по телефону с 9:00 до 19:00</div>
-              <div class="header-contacts__request-call">Заказать обратный звонок</div>
+              <label for="feedback-checkbox">
+                <div class="header-contacts__request-call">Заказать обратный звонок</div>
+              </label>
             </div>
             <div class="header-basket header__basket">
               <div class="header-basket__logo"></div>
@@ -74,8 +76,10 @@
                 <div class="header-profile__exit"></div>
               </div>
               <div class="header-search header__search">
-                <input type="text" class="header-search__input">
-                <div class="header-search__button"></div>
+                <form action="/search.html">
+                  <input type="text" class="header-search__input">
+                  <button class="header-search__button"></button>
+                </form>
               </div>
             </div>
           </div>
@@ -300,10 +304,12 @@
                 </div>
               </div>
             </div>
-            <div class="btn btn_big basket__btn">Оформить заказ</div>
+            <form action="/order-finish.html" class="basket__btn">
+              <button class="btn btn_big">Оформить заказ</button>
+            </form>
           </div>
           <div class="block-title basket__title-bottom">Вы смотрели товары</div>
-          <div class="basket__wrap basket__wrap_viewed">
+          <div class="wrap-goods wrap-goods_with_top wrap-goods_with_centering">
             <div class="goods goods_small">
               <div class="goods__img" style="background-image: url('images/shpig.png');"></div>
               <div class="goods__title">
@@ -394,7 +400,7 @@
             <a href="#" class="nav-link">
               <span class="nav-link__text nav-link__text_white">Доставка</span>
             </a>
-            <a href="#" class="nav-link">
+            <a href="/service.html" class="nav-link">
               <span class="nav-link__text nav-link__text_white">Услуги</span>
             </a>
             <a href="#" class="nav-link">
@@ -418,6 +424,24 @@
         </div>
       </div>
     </div>
+<!-- Feedback -->
+    <input type="checkbox" class="feedback-checkbox" id="feedback-checkbox">
+    <div class="dialog-overlay">
+      <div class="dialog">
+        <div class="dialog__text">Заказать обратный звонок</div>
+        <form action="" class="form-feedback">
+          <div class="dialog__tel">
+            <input type="text" placeholder="+7 __ - __ - __" class="dialog__field">
+            <button class="dialog__btn"></button>
+          </div>
+          <button class="btn btn_ordering dialog-overlay__btn">Отправить</button>
+        </form>
+        <label for="feedback-checkbox">
+          <div class="dialog__close"></div>
+        </label>
+      </div>
+    </div>
+<!-- End feedback -->
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <!-- endbower -->

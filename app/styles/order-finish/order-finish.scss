@@ -1,0 +1,27 @@
+.order-finish {
+  width: 620px;
+  text-align: center;
+  background: url("../images/order-finish-back.png") no-repeat;
+  background-position: center -238px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 160px;
+  padding-bottom: 90px;
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 122px;
+    height: 96px;
+    background: url("../images/order-finish.png") no-repeat;
+    position: absolute;
+    top: 29px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @import "__title/__title.scss";
+  @import "__text/__text.scss";
+}
