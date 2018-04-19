@@ -1,0 +1,9 @@
+.row-goods {
+  display: flex;
+  margin-bottom: 40px;
+  margin-left: -40px;
+
+  &:last-child {
+    margin-bottom: 17px;
+  }
+}

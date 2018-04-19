@@ -1,0 +1,9 @@
+&__link {
+  color: #993333;
+  border-bottom: 1px solid #993333;
+  transition: border-color .1s;
+
+  &:hover {
+    border-color: transparent;
+  }
+}

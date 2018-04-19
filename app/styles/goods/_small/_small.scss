@@ -1,6 +1,5 @@
 &_small {
   width: 200px;
-  margin-bottom: 38px;
   margin-left: 40px;
 
   &:last-child {
@@ -9,5 +8,9 @@
 
   .goods__img {
     height: 141px;
+  }
+
+  .goods__text {
+    height: 116px;
   }
 }

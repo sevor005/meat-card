@@ -1,4 +1,6 @@
 .container {
   max-width: 920px;
   margin: 0 auto;
+
+  @import "_with_centering/_with_centering.scss";
 }

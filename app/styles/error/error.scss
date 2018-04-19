@@ -1,0 +1,17 @@
+.error {
+  width: 500px;
+  height: 240px;
+  background: url("../images/order-finish-back.png") no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 28px;
+  padding-bottom: 168px;
+
+  @import "__text/__text.scss";
+  @import "__img/__img.scss";
+  @import "__number/__number.scss";
+  @import "__wrap/__wrap.scss";
+  @import "__link/__link.scss";
+}

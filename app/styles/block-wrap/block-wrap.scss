@@ -1,0 +1,7 @@
+.block-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  @import "_with-img/_with-img.scss";
+}

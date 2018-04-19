@@ -2,4 +2,9 @@
   position: absolute;
   top: 50%;
   right: -110px;
+  transition: right .1s;
+
+  &:hover {
+    right: -120px;
+  }
 }

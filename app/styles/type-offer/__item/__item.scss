@@ -2,5 +2,10 @@
   position: relative;
   text-align: center;
 
+  &:hover .type-offer__link {
+    border-color: #dbbcbc;
+    color: #f14f4f;
+  }
+
   @import "_img_holiday/_img_holiday.scss";
 }

@@ -1,0 +1,7 @@
+.table {
+  width: 100%;
+
+  @import "__cell/__cell.scss";
+  @import "__cell-title/__cell-title.scss";
+  @import "__row/__row.scss";
+}

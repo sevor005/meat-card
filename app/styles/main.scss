@@ -51,7 +51,7 @@ a, a:hover, a:active, a:visited {
 @import "novelty/novelty.scss";
 @import "location/location.scss";
 @import "map/map.scss";
-@import "block-title/block-title.scss";
+@import "page-title/page-title.scss";
 @import "popular/popular.scss";
 @import "badge/badge.scss";
 @import "expand/expand.scss";
@@ -86,5 +86,10 @@ a, a:hover, a:active, a:visited {
 @import "dialog/dialog.scss";
 @import "form-feedback/form-feedback.scss";
 @import "order-finish/order-finish.scss";
-@import "page-order-finish/page-order-finish.scss";
 @import "service/service.scss";
+@import "table/table.scss";
+@import "sub-text/sub-text.scss";
+@import "news-active/news-active.scss";
+@import "block-wrap/block-wrap.scss";
+@import "error/error.scss";
+@import "row-goods/row-goods.scss";

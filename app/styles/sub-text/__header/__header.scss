@@ -1,0 +1,8 @@
+&__header {
+  font-family: $dinregul;
+  font-size: 23px;
+  color: #000;
+
+  @import "_large_indent/_large_indent.scss";
+  @import "_small_indent/_small_indent.scss";
+}

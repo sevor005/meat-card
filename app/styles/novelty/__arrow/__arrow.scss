@@ -1,14 +1,9 @@
 &__arrow {
   height: 125px;
-  width: 30px;
+  width: 50px;
   background-repeat: no-repeat;
   transform: translate(0, -50%);
-  transition: background-color .1s;
   cursor: pointer;
-
-  &:hover {
-    background-color: #f8f7f7;
-  }
 
   @import "_left/_left.scss";
   @import "_right/_right.scss";
