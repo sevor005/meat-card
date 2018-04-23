@@ -1,0 +1,9 @@
+.title {
+  font-family: $dinregul;
+  font-size: 23px;
+  color: #000;
+
+  & + p {
+    margin-top: 9px;
+  }
+}

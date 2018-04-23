@@ -1,0 +1,10 @@
+&__wrap-with-img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 24px;
+
+  & + .title {
+    margin-top : 32px;
+  }
+}

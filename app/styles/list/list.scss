@@ -1,0 +1,8 @@
+.list {
+
+  & + .title {
+    margin-top: 15px;
+  }
+
+  @import "__item/__item.scss";
+}

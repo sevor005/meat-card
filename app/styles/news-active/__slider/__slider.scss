@@ -3,6 +3,10 @@
   height: 290px;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 35px;
+  margin-top: 30px;
   position: relative;
+
+  & + p {
+    margin-top: 26px;
+  }
 }

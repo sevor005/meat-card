@@ -1,0 +1,16 @@
+.text {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+
+  & + p {
+    margin-top: 22px;
+  }
+
+  & + table {
+    margin-top: 17px;
+  }
+
+  @import "_small-size/_small-size.scss";
+  @import "__img/__img.scss";
+}

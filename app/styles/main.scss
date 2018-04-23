@@ -65,7 +65,7 @@ a, a:hover, a:active, a:visited {
 @import "basket/basket.scss";
 @import "basket-calculation/basket-calculation.scss";
 @import "text-news/text-news.scss";
-@import "link-news/link-news.scss";
+@import "link/link.scss";
 @import "text-basket/text-basket.scss";
 @import "order-dropdown-basket/order-dropdown-basket.scss";
 @import "switch-weight/switch-weight.scss";
@@ -88,8 +88,10 @@ a, a:hover, a:active, a:visited {
 @import "order-finish/order-finish.scss";
 @import "service/service.scss";
 @import "table/table.scss";
-@import "sub-text/sub-text.scss";
+@import "text/text.scss";
 @import "news-active/news-active.scss";
 @import "block-wrap/block-wrap.scss";
 @import "error/error.scss";
 @import "row-goods/row-goods.scss";
+@import "title/title.scss";
+@import "list/list.scss";
